@@ -84,7 +84,7 @@ while True:
                 print ("fallo del rival",disparox,disparoy)
                 mostrar_tablero(tablerod_jugador1)
                 mostrar_tablero(tablero_jugador1)
-                time.sleep(1)
+                time.sleep(1.5)
                 turno_jugador=True
                 continue
             elif  tablero_jugador1[disparoy][disparox] == "O":
@@ -93,7 +93,7 @@ while True:
                 print ("impacto del rival",disparox,disparoy) 
                 mostrar_tablero(tablerod_jugador1)
                 mostrar_tablero(tablero_jugador1)
-                time.sleep(1)          
+                time.sleep(1.5)          
                 continue
             elif  tablero_jugador1[disparoy][disparox] != "[ ]" and tablero_jugador1[disparoy][disparox] != "O" :
                 continue
