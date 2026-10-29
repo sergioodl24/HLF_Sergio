@@ -81,7 +81,7 @@ while True:
             if  tablero_jugador1[disparoy][disparox] == "[ ]":
                 tablero_jugador1 [disparoy][disparox] ="X"
                 os.system('cls' if os.name == 'nt' else 'clear')
-                print ("fallo del rival",disparox,disparoy)
+                print ("fallo del rival : (",disparox,",",disparoy,")")
                 mostrar_tablero(tablerod_jugador1)
                 mostrar_tablero(tablero_jugador1)
                 time.sleep(1.5)
@@ -90,7 +90,7 @@ while True:
             elif  tablero_jugador1[disparoy][disparox] == "O":
                 tablero_jugador1 [disparoy][disparox] ="I"
                 os.system('cls' if os.name == 'nt' else 'clear')
-                print ("impacto del rival",disparox,disparoy) 
+                print ("impacto del rival : (",disparox,",",disparoy,")") 
                 mostrar_tablero(tablerod_jugador1)
                 mostrar_tablero(tablero_jugador1)
                 time.sleep(1.5)          
