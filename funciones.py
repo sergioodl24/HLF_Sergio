@@ -34,7 +34,7 @@ def crear_barco(eslora , tablero):
      elif horizontal == False and y+eslora<10:
          for i in range(eslora):
              barco.append((x,y+i))
-             if tablero[y+i][x]!="[]":
+             if tablero[y+i][x]!="[ ]":
                  validez=False
                  break
              if x < 9 and tablero[y + i][x + 1] != "[ ]":
